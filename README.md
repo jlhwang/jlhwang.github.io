@@ -1,2 +1,3 @@
-# jlhwang.github.io
-github page
+# lunarnightlight.github.io
+
+Personal static website. Under construction.

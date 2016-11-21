@@ -1,24 +1,33 @@
 body {
-    margin: 60px auto;
+    margin: 20px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav {
+    float: left;
+}
+ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
+    width: 200px;
     list-style: none;
     font-weight: bold;
+    background-color: #f1f1f1;
+    /* #f1f1f1 is a light gray, almost white; list item */
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 10px;
-}
-a {
+li a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
     text-decoration: none;
     color: #999;
+    /* #999 is a medium gray; menu text */
 }
-a:hover {
+li a:hover {
     color: #ae5777;
     /* #8c103d is a medium rose color */
+    background-color: #555;
+    /* #999 is a dark gray */
 }
 h1 {
     font-size: 3em;
@@ -30,7 +39,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #073b5e;
+/*    border-top: 1px solid #073b5e;*/
     /* #8c103d is a medium dark blue color */
     font-size: .8em;
 }

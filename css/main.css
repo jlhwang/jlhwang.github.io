@@ -30,6 +30,10 @@ li a:hover {
     background-color: #555;
     /* #999 is a dark gray */
 }
+.container {
+    display: block;
+    margin: auto;
+}
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';

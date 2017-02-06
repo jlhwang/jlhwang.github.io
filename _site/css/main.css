@@ -12,31 +12,35 @@ body {
 
 nav {
     float: left;
-    height: 100%;
+    height: 700px;  /* guesstimate for edge of bottom */
+/*    width: 20%;*/
+    background: #f1f1f1;
+    /* #f1f1f1 is a light gray, almost white; sidebar color */
 }
-nav ul {
+nav li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 20px 20px 20px 20px;
-    max-width: 200px;
+    padding: 50px 50px 50px 50px;
+ /*   max-width: 20%;*/
     list-style: none;
     font-weight: bold;
-    background-color: #f1f1f1;
-    /* #f1f1f1 is a light gray, almost white; list item */
-}
-nav a {
-    display: block;
-    margin: 30px 20px 30px 20px;
-    text-align: center;
-    text-decoration: none;
     color: #999;
     /* #999 is a medium gray; menu text */
 }
-nav a:hover {
-    color: #ae5777;
-    /* #8c103d is a medium rose color */
-    background-color: #555;
-    /* #999 is a dark gray */
+nav a {
+/*    display: block;*/
+    margin: 30px 30px 30px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ae5777;     /* #ae5777 is a light rose */
 }
+nav li:hover {
+    background-color: #555;
+    /* #555 is a dark gray */
+}
+
+/*nav a:hover {
+    color: #8c103d;  /* #8c103d is a medium rose color */
+/* } */
 
 /***************************
         Footer
@@ -45,9 +49,10 @@ nav a:hover {
 footer {
 /*    border-top: 1px solid #073b5e;*/
     /* #8c103d is a medium dark blue color */
-    clear: both;
-    position: center;
-    font-size: 1em;
+/*    clear: both;*/
+/*    padding-top: 50px;*/
+    text-align: : center;
+    font-size: 0.6em;
 
 }
 
@@ -55,9 +60,9 @@ footer {
         Index
 ***************************/
 
-.container {
+/*.container {
     margin: auto;
-}
+}*/
 h1 {
     font-size: 5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';

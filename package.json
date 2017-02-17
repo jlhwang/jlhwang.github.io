@@ -1,5 +1,5 @@
 {
-  "name": "lunarnightlight.github.io",
+  "name": "stellarluna.github.io",
   "version": "1.0.0",
   "description": "Personal static website. Under construction.",
   "main": "index.js",
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lunarnightlight/lunarnightlight.github.io.git"
+    "url": "git+https://github.com/stellarluna/stellarluna.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lunarnightlight/lunarnightlight.github.io/issues"
+    "url": "https://github.com/stellarluna/stellarluna.github.io/issues"
   },
-  "homepage": "https://github.com/lunarnightlight/lunarnightlight.github.io#readme"
+  "homepage": "https://github.com/stellarluna/stellarluna.github.io#readme"
 }
